@@ -1,0 +1,82 @@
+body {
+		background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("../../images/bg-2.jpeg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("../../images/bg-2.jpeg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("../../images/bg-2.jpeg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("../../images/bg-2.jpeg");
+		animation:anim 15s infinite;
+		background-size: 100%;
+}
+
+@keyframes anim {
+	0% {background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-2.png");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-2.png");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-2.png");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-2.png");}
+
+	50% {background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-3.png");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-3.png");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-3.png");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-3.png");}
+
+	100% {background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-4.png");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-4.png");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-4.png");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(63, 81, 181, 0.54) 5%, rgba(156, 39, 176, 0.54)), url("bg-4.png");}
+}
+.rectangle {
+	width: 300px;
+	height: 400px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px; 
+	left:calc(50% - 150px);
+}
+
+.name {
+	font-family: sans-serif;
+	color:grey;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	font-weight: 100;
+
+}
+
+.foto-perfil img {
+	width: 100px; 
+	height:100px;
+	border-radius: 100%; 
+	position: absolute;
+	top: 40px;
+	left: 100px;
+}
+.address {
+	text-align: center;
+	color:grey;
+	position: relative;
+	top: 150px;
+	font-family: sans-serif;
+
+}
+
+.footer {
+	color: #ffffff;
+	font-family:sans-serif;
+	text-align:center;
+	position:fixed;
+	bottom: 0px;
+	left:calc(50% - 110px);
+
+}
+
+.icons {
+	display: inline-block;
+	position: relative;
+	top:200px;
+	left: 80px;
+	font-size: -webkit-xxx-large;
+	color: rgba(177, 161, 161, 0.45);
+}
